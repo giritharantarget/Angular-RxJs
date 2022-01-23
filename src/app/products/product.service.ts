@@ -5,7 +5,6 @@ import { Observable, throwError } from 'rxjs';
 import { catchError, tap } from 'rxjs/operators';
 
 import { Product } from './product';
-import { Supplier } from '../suppliers/supplier';
 import { SupplierService } from '../suppliers/supplier.service';
 
 @Injectable({
@@ -18,13 +17,13 @@ export class ProductService {
   constructor(private http: HttpClient,
               private supplierService: SupplierService) { }
 
-  getProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.productsUrl)
-      .pipe(
-        tap(data => console.log('Products: ', JSON.stringify(data))),
-        catchError(this.handleError)
-      );
-  }
+ products$ = this.http.get<Product[]>(this.productsUrl)
+                  .pipe(
+                    tap(data => console.log('Products: ', JSON.stringify(data))),
+                    catchError(this.handleError)
+                  );
+              
+
 
   private fakeProduct(): Product {
     return {
