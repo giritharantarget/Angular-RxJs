@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "productName": "Leaf Rake",
+        "productCode": "GDN-0011",
+        "description": "Leaf rake with 48-inch wooden handle",
+        "price": 35.91,
+        "categoryId": 1,
+        "quantityInStock": 15,
+        "supplierIds": [
+            1,
+            2
+        ],
+        "searchKey": [
+            "Leaf Rake"
+        ],
+        "category": "Garden"
+    },
+    {
+        "id": 2,
+        "productName": "Garden Cart",
+        "productCode": "GDN-0023",
+        "description": "15 gallon capacity rolling garden cart",
+        "price": 59.382000000000005,
+        "categoryId": 1,
+        "quantityInStock": 2,
+        "supplierIds": [
+            3,
+            4
+        ],
+        "searchKey": [
+            "Garden Cart"
+        ],
+        "category": "Garden"
+    },
+    {
+        "id": 5,
+        "productName": "Hammer",
+        "productCode": "TBX-0048",
+        "description": "Curved claw steel hammer",
+        "price": 16.02,
+        "categoryId": 3,
+        "quantityInStock": 8,
+        "supplierIds": [
+            5,
+            6
+        ],
+        "searchKey": [
+            "Hammer"
+        ],
+        "category": "Toolbox"
+    },
+    {
+        "id": 8,
+        "productName": "Saw",
+        "productCode": "TBX-0022",
+        "description": "15-inch steel blade hand saw",
+        "price": 20.790000000000003,
+        "categoryId": 3,
+        "quantityInStock": 6,
+        "supplierIds": [
+            7,
+            8
+        ],
+        "searchKey": [
+            "Saw"
+        ],
+        "category": "Toolbox"
+    },
+    {
+        "id": 10,
+        "productName": "Video Game Controller",
+        "productCode": "GMG-0042",
+        "description": "Standard two-button video game controller",
+        "price": 64.71000000000001,
+        "categoryId": 5,
+        "quantityInStock": 12,
+        "supplierIds": [
+            9,
+            10
+        ],
+        "searchKey": [
+            "Video Game Controller"
+        ],
+        "category": "Gaming"
+    }
+]
